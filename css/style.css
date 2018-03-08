@@ -1,5 +1,5 @@
 body{
-  font: 15px/1.5 Arial,Helvetica, sans-serif;
+  font: 15px/1.5 Verdana,Helvetica, sans-serif;
   padding:0;
   margin:0;
   background-color:#f4f4f4;
@@ -36,7 +36,7 @@ ul{
 
 /* Header **/
 header{
-  background:#542437;
+  background:url('../images/header_bkg.png') no-repeat 0 -300px;
   color:#ffffff;
   padding-top:30px;
   min-height: 70px;
@@ -82,7 +82,8 @@ header a:hover{
 /* Showcase */
 #showcase{
   min-height: 400px;
-  background:url('../images/bear.jpg') no-repeat 0 -300px;
+  background:url('../images/bear.jpg') no-repeat 0 -400px;
+  border-bottom:#c02942 3px solid;
   text-align: center;
   color: #ffffff;
 }
@@ -99,9 +100,10 @@ header a:hover{
 
 /* Newsletter */
 #newsletter{
-  padding:15px;
+  padding:20px;
   color:#ffffff;
-  background:#542437;
+  background:url('../images/header_bkg.png') no-repeat 0 -500px;
+  margin-top: 20px;
 }
 
 #newsletter h1{
@@ -161,13 +163,15 @@ ul#achievements li{
   background: #e6e6e6;
 }
 
+/* Footer */
 footer{
   padding:20px;
-  margin-top:20px;
   color:#ffffff;
   background-color:#FE4365;
-  text-align:center;
+  text-align: center;
+  bottom:0;
 }
+
 
 /* Media Queries */
 @media(max-width: 768px){
